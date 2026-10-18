@@ -1,0 +1,357 @@
+{
+ "voices": {
+  "examiner": "en-US-GuyNeural",
+  "model": "en-US-JennyNeural"
+ },
+ "common": [
+  {
+   "id": "c01_card",
+   "text": "Hello. Can I have your card, please?",
+   "reply": "Hello. Here you are.",
+   "time": 5
+  },
+  {
+   "id": "c02_seat",
+   "text": "Thank you. Please have a seat.",
+   "reply": "Thank you.",
+   "time": 4
+  },
+  {
+   "id": "c03_name",
+   "text": "May I have your name, please?",
+   "reply": "My name is (あなたの名前).",
+   "time": 5
+  },
+  {
+   "id": "c04_grade",
+   "text": "All right. This is the Grade Pre-1 test. OK?",
+   "reply": "Yes.",
+   "time": 4
+  },
+  {
+   "id": "c05_how",
+   "text": "How are you today?",
+   "reply": "I'm fine, thank you. (And you?)",
+   "time": 5
+  },
+  {
+   "id": "f01",
+   "text": "Before we begin, let's talk a little about you. What do you usually do on weekends?",
+   "reply": "2〜3文で。I usually ... Recently, I have been ...",
+   "time": 25,
+   "free": true
+  },
+  {
+   "id": "f02",
+   "text": "Before we begin, let's talk a little about you. Could you tell me about your school or your job?",
+   "reply": "2〜3文で。I'm a ... I'm interested in ...",
+   "time": 25,
+   "free": true
+  },
+  {
+   "id": "f03",
+   "text": "Before we begin, let's talk a little about you. Have you been anywhere interesting recently?",
+   "reply": "2〜3文で。Yes. Last month, I went to ...",
+   "time": 25,
+   "free": true
+  },
+  {
+   "id": "f04",
+   "text": "Before we begin, let's talk a little about you. Why are you studying English?",
+   "reply": "2〜3文で。I'm studying English because ...",
+   "time": 25,
+   "free": true
+  },
+  {
+   "id": "c06_start",
+   "text": "All right. Let's start the test. Here's your card.",
+   "reply": "Thank you.",
+   "time": 3
+  },
+  {
+   "id": "c07_prep",
+   "text": "You have one minute to prepare before you start your narration."
+  },
+  {
+   "id": "c08_begin",
+   "text": "All right. Please begin your narration. You have two minutes."
+  },
+  {
+   "id": "c09_four",
+   "text": "Thank you. Now, I'm going to ask you four questions."
+  },
+  {
+   "id": "c10_turn",
+   "text": "Now, please turn over the card and put it down."
+  },
+  {
+   "id": "c11_back",
+   "text": "All right. That's all. May I have the card back, please?",
+   "reply": "Here you are.",
+   "time": 4
+  },
+  {
+   "id": "c12_go",
+   "text": "Thank you. You may go now.",
+   "reply": "Thank you. Goodbye.",
+   "time": 4
+  }
+ ],
+ "sets": [
+  {
+   "id": "set1",
+   "theme": "食品ロス・環境",
+   "title": "Reducing Food Waste",
+   "intro": "This is a story about a restaurant owner who wanted to reduce food waste.",
+   "opening": "One day, a restaurant owner was talking with one of his staff after closing time.",
+   "panels": [
+    {
+     "label": "",
+     "kind": "say",
+     "text": "We're throwing away too much food.",
+     "jp": "閉店後の厨房。残飯でいっぱいのゴミ箱の前で、店主（中年男性）が店員に話しかけている。",
+     "prompt": "Inside a small Japanese restaurant kitchen after closing time. A middle-aged male restaurant owner in an apron is pointing at two large trash bins overflowing with leftover food, talking to a young female staff member, who looks worried. A speech bubble shape near the owner (leave it empty)."
+    },
+    {
+     "label": "A few days later",
+     "kind": "sign",
+     "text": "Poster: \"Half-size portions available / Take-out boxes for leftovers\"",
+     "jp": "店の入り口。店主が「ハーフサイズあります・食べ残しの持ち帰り容器あります」というポスターを貼っている。通りがかりの客が興味深そうに見ている。",
+     "prompt": "The same restaurant owner putting up a poster on the front door of his restaurant. The poster shows a picture of a small plate and a large plate, and a take-out box (no readable text). Two customers passing by are looking at the poster with interest."
+    },
+    {
+     "label": "A month later",
+     "kind": "",
+     "text": "",
+     "jp": "店内はにぎわっている。客がハーフサイズを注文し、店員が食べ残しを持ち帰り容器に詰めている。厨房のゴミ箱はほとんど空。",
+     "prompt": "The restaurant is busy with happy customers eating small portions. The young female staff member is putting a customer's leftover food into a plastic take-out box. In the kitchen in the background, the trash bin is almost empty."
+    },
+    {
+     "label": "A few months later",
+     "kind": "",
+     "text": "",
+     "jp": "店の裏。使い終わったプラスチック製の持ち帰り容器がゴミ袋にいくつも積み上がっている。店主が困った顔でそれを見ている。",
+     "prompt": "Behind the restaurant, many garbage bags full of used plastic take-out boxes are piled up high. The restaurant owner is standing in front of them with a troubled face, scratching his head."
+    }
+   ],
+   "role": "the restaurant owner",
+   "narration": "One day, a restaurant owner was talking with one of his staff after closing time. The trash bins in the kitchen were full of leftover food, and he said to her, \"We're throwing away too much food.\" A few days later, he was putting up a poster on the front door of the restaurant. It said that customers could order half-size portions and take their leftovers home. Some people walking by seemed interested in it. A month later, the restaurant was busy. Customers were enjoying smaller portions, and the staff member was putting a customer's leftovers into a take-out box. There was very little food in the kitchen trash bin. A few months later, however, the owner was shocked to see a huge pile of garbage bags full of plastic take-out boxes behind the restaurant.",
+   "q1": "No. 1. Please look at the fourth picture. If you were the restaurant owner, what would you be thinking?",
+   "a1": "I'd be thinking, \"We've succeeded in reducing food waste, but now we're producing a lot of plastic waste instead. I should switch to containers that can be recycled, or ask customers to bring their own.\"",
+   "a1_tip": "「I'd be thinking, \"...\"」の形で、カッコ内は現在形の心の声。①うまくいった点を認める → ②but で問題点 → ③I should ... で対策、の3点セットにすると内容が充実します。",
+   "q2": "No. 2. Do you think people today waste more food than in the past?",
+   "a2_yes": "Yes, I think so. Today, food is cheap and easy to buy at convenience stores, so people often buy more than they need. Also, many people throw away food just because it has passed its best-before date, even when it is still safe to eat.",
+   "a2_no": "No, I don't think so. These days, people are more aware of the problem of food waste because it is often discussed in the media. Also, some apps now help people buy food that stores would otherwise throw away at a discount.",
+   "q3": "No. 3. Should supermarkets do more to reduce food waste?",
+   "a3_yes": "Yes, they should. Supermarkets throw away a huge amount of food that is still edible. They could donate this food to food banks or sell it at lower prices, which would help both the environment and people in need.",
+   "a3_no": "No, I don't think they need to do more. Many supermarkets are already selling food near its expiration date at discount prices. I think individual consumers should take more responsibility by buying only what they need.",
+   "q4": "No. 4. These days, some countries have banned single-use plastic products. Should the Japanese government introduce stricter rules on plastic use?",
+   "a4_yes": "Yes. Plastic waste is causing serious damage to the ocean and marine life. Voluntary efforts by companies are not enough, so the government should introduce strict rules, such as banning plastic straws and bags.",
+   "a4_no": "No. Strict rules would cause problems for many small businesses, because alternatives to plastic are often more expensive. Instead, the government should focus on improving recycling systems and educating people."
+  },
+  {
+   "id": "set2",
+   "theme": "地方移住・働き方",
+   "title": "Moving to the Countryside",
+   "intro": "This is a story about a couple who moved to the countryside.",
+   "opening": "One evening, a couple was talking about their life in the city.",
+   "panels": [
+    {
+     "label": "",
+     "kind": "say",
+     "text": "Why don't we move to the countryside? We can both work from home.",
+     "jp": "都会の狭いマンション。窓の外には高層ビル。妻がノートパソコンで田舎の一軒家の写真を夫に見せて話しかけている。",
+     "prompt": "A Japanese couple in their thirties in a small, crowded city apartment at night. Through the window you can see tall buildings. The wife is showing her husband a laptop screen with a photo of a large old house surrounded by mountains (no readable text). A speech bubble shape near the wife (leave it empty)."
+    },
+    {
+     "label": "A few months later",
+     "kind": "",
+     "text": "",
+     "jp": "山に囲まれた古い一軒家に引っ越してきた夫婦。段ボールを運んでいると、近所の年配の男性が野菜を持ってきてくれている。",
+     "prompt": "The same couple moving into a big traditional Japanese house surrounded by mountains and rice fields. They are carrying cardboard boxes. A friendly elderly neighbor man is giving them a basket of fresh vegetables."
+    },
+    {
+     "label": "Some weeks later",
+     "kind": "",
+     "text": "",
+     "jp": "夫は縁側でノートパソコンを使ってオンライン会議をしている。妻は庭で野菜を育てていて、二人とも楽しそう。",
+     "prompt": "The husband is having an online meeting on his laptop on the wooden veranda of the house, with mountains in the background. The wife is happily growing vegetables in the garden nearby. Both are smiling."
+    },
+    {
+     "label": "One stormy day",
+     "kind": "",
+     "text": "",
+     "jp": "嵐の日。ノートパソコンの画面に接続エラーのマーク。夫はスマホも圏外で、会議に参加できずに頭を抱えている。",
+     "prompt": "A stormy day with heavy rain and strong wind outside the window. The husband is sitting in front of his laptop, which shows a large disconnected Wi-Fi symbol with a cross mark. He is holding his smartphone, which also shows no signal, and he is holding his head in frustration."
+    }
+   ],
+   "role": "the husband",
+   "narration": "One evening, a couple was talking about their life in the city. Their apartment was small, and the wife showed her husband a photo of a large house in the countryside. She said to him, \"Why don't we move to the countryside? We can both work from home.\" A few months later, the couple moved into an old house surrounded by mountains. While they were carrying boxes, a friendly neighbor brought them some fresh vegetables. Some weeks later, the husband was having an online meeting on the veranda, and his wife was growing vegetables in the garden. They both seemed to be enjoying their new life. One stormy day, however, the Internet connection stopped working. The husband could not join his meeting, and he was very upset.",
+   "q1": "No. 1. Please look at the fourth picture. If you were the husband, what would you be thinking?",
+   "a1": "I'd be thinking, \"Life in the countryside is wonderful, but I can't do my job without a stable Internet connection. I should have checked this before we moved. I'll look for a backup, such as a shared office in town.\"",
+   "a1_tip": "後悔は「I should have + 過去分詞」、これからの対策は「I'll ... / I should ...」。この2つを使えると準1級らしい答えになります。",
+   "q2": "No. 2. Do you think more young people will move to rural areas in the future?",
+   "a2_yes": "Yes, I think so. Thanks to remote work, many people no longer need to live near their offices. Also, housing costs in rural areas are much lower, so young families can afford bigger homes and a better environment for their children.",
+   "a2_no": "No, I don't think so. Most good jobs and universities are still in big cities. In addition, rural areas often lack hospitals, shops, and public transportation, which makes daily life inconvenient for young people.",
+   "q3": "No. 3. Should companies allow all employees to work from home if they want to?",
+   "a3_yes": "Yes. Working from home saves time and money spent on commuting, so employees can have a better work-life balance. Also, companies can reduce office costs, which benefits both workers and employers.",
+   "a3_no": "No. Some jobs, such as working in factories or hospitals, cannot be done from home. Moreover, communication among team members can suffer, so it is better for companies to decide flexibly depending on the job.",
+   "q4": "No. 4. Many local towns in Japan are losing their populations. Should the government do more to support rural areas?",
+   "a4_yes": "Yes. If rural areas continue to lose people, important local industries such as farming will disappear. The government should provide financial support for people who move there and improve services like medical care.",
+   "a4_no": "No. The government's budget is limited, and it is more efficient to concentrate services in cities. Rather than depending on the government, local communities should find their own ways to attract visitors and businesses."
+  },
+  {
+   "id": "set3",
+   "theme": "防災",
+   "title": "Preparing for Disasters",
+   "intro": "This is a story about a mother who wanted to prepare for natural disasters.",
+   "opening": "One day, Mrs. Ito was watching the news with her son.",
+   "panels": [
+    {
+     "label": "",
+     "kind": "say",
+     "text": "We should prepare for an emergency, too.",
+     "jp": "リビング。テレビに洪水で浸水した町の映像が映っている。伊藤さんが中学生の息子に話しかけている。",
+     "prompt": "A Japanese mother and her junior high school son sitting on a sofa in a living room, watching TV. The TV screen shows a flooded town with houses under water (no readable text). The mother is talking to her son with a serious face. A speech bubble shape near the mother (leave it empty)."
+    },
+    {
+     "label": "That weekend",
+     "kind": "",
+     "text": "",
+     "jp": "ホームセンター。親子がカートに水のペットボトル、缶詰、懐中電灯、ラジオなどの防災用品を入れている。",
+     "prompt": "The same mother and son in a home improvement store. They are putting emergency supplies into a shopping cart: boxes of bottled water, canned food, a flashlight, and a portable radio."
+    },
+    {
+     "label": "The next month",
+     "kind": "",
+     "text": "",
+     "jp": "公園での地域の防災訓練。消防士が消火器の使い方を説明し、伊藤さん親子や近所の人が参加している。",
+     "prompt": "A community disaster drill in a local park. A firefighter in uniform is showing how to use a fire extinguisher. The mother, her son, and several neighbors of different ages are watching and taking part."
+    },
+    {
+     "label": "A year later",
+     "kind": "sign",
+     "text": "Label on the cans: \"Best before\" date had passed",
+     "jp": "1年後。伊藤さんがクローゼットの防災バッグを開けると、缶詰や水の賞味期限が切れていて、がっかりしている。",
+     "prompt": "A year later. The mother is kneeling in front of a closet and has opened an emergency backpack. She is holding a can of food and a water bottle and looking at them with a disappointed face. A calendar-like symbol with a cross mark floats near the can to show it has expired."
+    }
+   ],
+   "role": "Mrs. Ito",
+   "narration": "One day, Mrs. Ito was watching the news with her son. The TV showed a town that had been badly damaged by a flood, and she said to her son, \"We should prepare for an emergency, too.\" That weekend, they went to a home improvement store. They bought emergency supplies such as bottled water, canned food, and a flashlight. The next month, they took part in a disaster drill in a local park. A firefighter was showing people how to use a fire extinguisher. A year later, Mrs. Ito opened the emergency bag in the closet. She was disappointed to find that the food and water had passed their best-before dates.",
+   "q1": "No. 1. Please look at the fourth picture. If you were Mrs. Ito, what would you be thinking?",
+   "a1": "I'd be thinking, \"It was a good idea to prepare emergency supplies, but I should have checked them regularly. From now on, I'll use the food in our daily meals and replace it with new food.\"",
+   "a1_tip": "4コマ目の状況（期限切れ）だけでなく、1〜3コマ目の努力にも触れると話に深みが出ます。「From now on, I'll ...」は使い回しのきく表現です。",
+   "q2": "No. 2. Do you think people in Japan are well prepared for natural disasters?",
+   "a2_yes": "Yes, I think so. Japan has experienced many earthquakes and typhoons, so people learn about disaster prevention from a young age. Schools and companies regularly hold drills, and many families keep emergency supplies at home.",
+   "a2_no": "No, I don't think so. Many people know that they should prepare, but they don't actually do it because they are busy. For example, many families have not decided where to meet if a disaster happens.",
+   "q3": "No. 3. Should schools spend more time teaching students about disaster prevention?",
+   "a3_yes": "Yes. Disasters can happen at any time, and children need to know how to protect themselves. Also, students can share what they learn with their families, which helps the whole community become better prepared.",
+   "a3_no": "No. Schools already hold disaster drills several times a year, and students have many other subjects to study. I think families and local communities should play a bigger role in teaching children about disasters.",
+   "q4": "No. 4. Natural disasters are becoming more severe because of climate change. Should the government stop people from building homes in areas with a high risk of flooding?",
+   "a4_yes": "Yes. Building homes in dangerous areas puts people's lives at risk. It also costs the government a lot of money to help people after disasters, so it is better to prevent the damage in advance.",
+   "a4_no": "No. People should have the right to decide where they live. Instead of banning construction, the government should invest in flood defenses and make sure people receive warnings early enough to evacuate."
+  },
+  {
+   "id": "set4",
+   "theme": "教育・テクノロジー",
+   "title": "Technology in the Classroom",
+   "intro": "This is a story about a teacher who started using tablets in her class.",
+   "opening": "One day, Ms. Kimura was talking with the principal of her school.",
+   "panels": [
+    {
+     "label": "",
+     "kind": "say",
+     "text": "Every student will get a tablet next month.",
+     "jp": "職員室。校長先生がタブレットの入った箱を見せながら、木村先生に話しかけている。",
+     "prompt": "A Japanese school staff room. An older male principal is showing a cardboard box full of new tablet computers to a young female teacher, Ms. Kimura, who looks excited. A speech bubble shape near the principal (leave it empty)."
+    },
+    {
+     "label": "The next month",
+     "kind": "",
+     "text": "",
+     "jp": "教室。生徒たちが楽しそうにタブレットを使っている。木村先生が電子黒板で教材を見せている。",
+     "prompt": "A Japanese high school classroom. Students are happily using tablets at their desks. Ms. Kimura is standing next to a large digital screen at the front, showing a colorful map and pictures to the class."
+    },
+    {
+     "label": "A few weeks later",
+     "kind": "",
+     "text": "",
+     "jp": "生徒の自宅。男子生徒がタブレットのAIチャットに宿題の問題を入力し、出てきた答えをそのままノートに書き写している。",
+     "prompt": "A high school boy at home sitting at his desk at night. On his tablet there is a chat screen with a small robot icon giving answers (no readable text). The boy is copying the answers into his notebook without thinking, looking relaxed."
+    },
+    {
+     "label": "At the end of the term",
+     "kind": "",
+     "text": "",
+     "jp": "教室。紙のテストが返却され、多くの生徒が低い点数にショックを受けている。木村先生も困った表情。",
+     "prompt": "In the classroom, Ms. Kimura is handing back paper test sheets. Many students, including the boy, look shocked at their test sheets, which have many cross marks. Ms. Kimura looks worried and troubled."
+    }
+   ],
+   "role": "Ms. Kimura",
+   "narration": "One day, Ms. Kimura was talking with the principal of her school. He showed her a box of new tablets and said, \"Every student will get a tablet next month.\" The next month, the students were using tablets in class. Ms. Kimura was showing them pictures on a large digital screen, and they looked very interested. A few weeks later, one of her students was doing his homework at home. He was asking an AI chat service for the answers and copying them into his notebook. At the end of the term, Ms. Kimura handed back the test papers. Many students were shocked by their low scores, and Ms. Kimura was worried.",
+   "q1": "No. 1. Please look at the fourth picture. If you were Ms. Kimura, what would you be thinking?",
+   "a1": "I'd be thinking, \"The tablets made my lessons more interesting, but some students relied too much on AI and didn't really learn. I need to teach them how to use these tools properly.\"",
+   "a1_tip": "3コマ目（AIの答えを写す）と4コマ目（点数が低い）の因果関係を、先生の立場で言葉にするのがポイント。",
+   "q2": "No. 2. Do you think students today rely too much on the Internet for information?",
+   "a2_yes": "Yes, I think so. Many students simply search online and accept the first answer they find. As a result, they don't develop the ability to think deeply or check whether the information is reliable.",
+   "a2_no": "No, I don't think so. The Internet allows students to access a wide range of up-to-date information quickly. As long as they learn how to judge reliable sources, it is a very useful tool for studying.",
+   "q3": "No. 3. Should schools teach students how to use AI?",
+   "a3_yes": "Yes. AI will be used in almost every job in the future, so students need to learn how to use it effectively. Schools should also teach them about the risks, such as wrong information and copying.",
+   "a3_no": "No. Students should first develop basic skills, such as reading, writing, and calculating, without relying on machines. They can learn how to use AI later, when they go to university or start working.",
+   "q4": "No. 4. These days, AI technology is being used in many workplaces. Do you think AI will cause many people to lose their jobs?",
+   "a4_yes": "Yes. AI can already do many tasks, such as answering customer questions and analyzing data, faster and more cheaply than humans. Companies will probably replace many office workers with AI to cut costs.",
+   "a4_no": "No. Although AI will take over some simple tasks, it will also create new kinds of jobs. Moreover, jobs that require human communication and creativity, such as nursing and teaching, cannot be done by AI."
+  },
+  {
+   "id": "set5",
+   "theme": "観光・地域社会",
+   "title": "A Popular Town",
+   "intro": "This is a story about a couple who ran a small inn in a quiet town.",
+   "opening": "One day, Mr. and Mrs. Mori were talking at their inn.",
+   "panels": [
+    {
+     "label": "",
+     "kind": "say",
+     "text": "Let's post photos of our town on social media.",
+     "jp": "客のいない旅館のロビー。森さん（夫）が空白の多い予約帳を見てため息をついている。妻がスマホを手に話しかけている。",
+     "prompt": "The empty lobby of a small traditional Japanese inn. Mr. Mori, a man in his fifties, is looking sadly at an almost empty reservation book on the front desk. His wife is holding a smartphone and talking to him with a smile. A speech bubble shape near the wife (leave it empty)."
+    },
+    {
+     "label": "A few weeks later",
+     "kind": "",
+     "text": "",
+     "jp": "古い町並みと桜。妻がスマホで景色を撮影している。スマホ画面にはハートマークがたくさん表示されている。",
+     "prompt": "A beautiful old street with traditional wooden houses and cherry blossoms. Mrs. Mori is taking a photo of the scenery with her smartphone. Many small heart symbols are floating up from the smartphone screen."
+    },
+    {
+     "label": "Some months later",
+     "kind": "",
+     "text": "",
+     "jp": "旅館のロビーはスーツケースを持った外国人観光客でいっぱい。森さん夫婦が笑顔で出迎えている。",
+     "prompt": "The inn lobby is now full of foreign tourists with suitcases. Mr. and Mrs. Mori are bowing and welcoming them with big smiles. A small bell on the front desk."
+    },
+    {
+     "label": "One weekend",
+     "kind": "",
+     "text": "",
+     "jp": "狭い通りが自撮りをする観光客であふれ、道にはゴミが落ちている。荷物を持った近所の高齢女性が通れずに森さんに苦情を言っている。",
+     "prompt": "The narrow old street is now extremely crowded with tourists taking selfies. There is some trash on the ground. An elderly local woman carrying shopping bags cannot pass through, and she is complaining angrily to Mr. Mori, who looks embarrassed."
+    }
+   ],
+   "role": "Mr. Mori",
+   "narration": "One day, Mr. and Mrs. Mori were talking at their inn. Mr. Mori was worried because they had very few reservations. His wife said to him, \"Let's post photos of our town on social media.\" A few weeks later, she was taking photos of the old streets and the cherry blossoms. Her posts became very popular online. Some months later, the inn was full of foreign tourists, and Mr. and Mrs. Mori were happily welcoming them. One weekend, however, the narrow street was crowded with tourists taking selfies, and there was trash on the ground. An elderly woman who lived in the town could not get through, and she complained to Mr. Mori.",
+   "q1": "No. 1. Please look at the fourth picture. If you were Mr. Mori, what would you be thinking?",
+   "a1": "I'd be thinking, \"Our business is doing much better thanks to the tourists, but they're causing problems for local people. I should work with the town to make some rules for visitors.\"",
+   "a1_tip": "苦情を言われた側の気持ち（申し訳ない・解決したい）を想像する。「I'm sorry that ...」から始めても自然です。",
+   "q2": "No. 2. Do you think social media has a positive influence on society?",
+   "a2_yes": "Yes, I think so. Social media allows people to share information instantly with people all over the world. For example, small businesses and local towns can promote themselves without spending much money on advertising.",
+   "a2_no": "No, I don't think so. False information spreads very quickly on social media, and it can cause confusion. In addition, many people suffer from online bullying and stress from comparing themselves to others.",
+   "q3": "No. 3. Should tourists be charged a fee to visit popular sightseeing spots?",
+   "a3_yes": "Yes. A fee would help reduce overcrowding at popular places. The money could also be used to protect historical sites and keep the area clean, which benefits both tourists and local residents.",
+   "a3_no": "No. Charging a fee might discourage tourists from visiting, which would hurt local businesses. It would be better to spread tourists to less famous areas by promoting them more actively.",
+   "q4": "No. 4. Japan's population is aging and getting smaller. Should Japan accept more foreign workers to deal with its labor shortage?",
+   "a4_yes": "Yes. Many industries, such as nursing care and construction, are already facing serious labor shortages. Accepting more foreign workers would help support the economy and also make Japanese society more diverse.",
+   "a4_no": "No. Japan should first make better use of its own workforce, such as elderly people and women who want to work. Also, without enough support for language and housing, foreign workers may face many difficulties."
+  }
+ ]
+}
